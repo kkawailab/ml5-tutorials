@@ -10,7 +10,8 @@ let label = '読み込み中...';
 
 // Teachable Machineで作成したモデルのURL
 // 注意: URLの最後には必ず「/」を付けてください
-const soundModel = 'https://teachablemachine.withgoogle.com/models/_ZmBF9LUI/';
+// 例: 'https://teachablemachine.withgoogle.com/models/あなたのモデル名/'
+const soundModel = 'https://teachablemachine.withgoogle.com/models/YOUR_MODEL_NAME/';
 
 // モデルが読み込まれたかどうかを管理するフラグ
 let modelLoaded = false;
