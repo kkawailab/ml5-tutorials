@@ -87,7 +87,7 @@ ml5-tutorials/
 ```javascript
 let classifier;  // ml5の音声分類器
 let label = '読み込み中...';  // 画面に表示するテキスト
-const soundModel = 'https://teachablemachine.withgoogle.com/models/_ZmBF9LUI/';
+const soundModel = 'https://teachablemachine.withgoogle.com/models/YOUR_MODEL_NAME/';
 ```
 
 #### 2. setup() - 初期化
